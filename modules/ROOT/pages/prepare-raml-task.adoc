@@ -9,7 +9,7 @@ For example when applying a client ID-based policies implies that all requests c
 [source,yaml,linenums]
 ----
 traits:
-  - client-id-required:
+    client-id-required:
       queryParameters:
         client_id:
           type: string
